@@ -1,0 +1,47 @@
+body{
+    background-color: #FDF5AA;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #34699A, #113F67, #8D64E3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#profile{
+    background-color: #58A0C8;
+    color:azure;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.lead{
+    text-align: left;
+}
+#cover, .btn-primary{
+    background-color: #113F67;
+}
+.list-group-item{
+    background-color: #34699A;
+}
+.custom-hover:hover,.card-body {
+  background-color: #58A0C8 !important;
+}
+.card{
+  height: 440px;
+}
+.card-img-top{
+  height:200px;
+}
+.nav-link{
+  color:#34699A;
+}
